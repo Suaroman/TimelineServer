@@ -11,8 +11,11 @@ The "Timeline Logger Utility" utility contains a shell script (adjust-log-levels
 Instead of cloning the repository, you can directly download the `adjust-timeline-log.sh` script using `wget` and make it executable with a single command:
 
 ```bash
-git clone https://github.com/Suaroman/TimelineServer.git
+wget -O adjust-timeline-log.sh https://raw.githubusercontent.com/Suaroman/TimelineServer/master/adjust-timeline-log.sh && chmod +x adjust-timeline-log.sh
 ```
+
+This command will download the script and set the execute permission in one go, making it ready for use.
+
 
 ## Instructions
 Go to the folder containing the program and run it with one of the three log intensities as an argument. Be sure you have authorization to execute the program.
